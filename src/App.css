@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Message-text {
+  font-size: 28px;
+  line-height: 14px;
+  color: #66d0ee;
+  text-shadow: 1px 1px 2px rgb(240, 240, 241);
+}
