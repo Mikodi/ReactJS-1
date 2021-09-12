@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Messages {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+.top {
+    background-color: rgb(48, 61, 71);
+    color: aliceblue;
+    padding: 10px;
+}
+
+.mess_list {
+    height: 504px;
+    overflow-y: scroll;
+    background-color: gainsboro;
+}
+
+.forma {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    background-color: rgb(48, 61, 71);
+}
+
+.message_content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.user_name {
+    font-size: 13px;
+	padding: 6px 10px 4px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.user_message {
+    margin: 5px 25px;
+    font-size: 13px;
+	padding: 6px 10px 4px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.MuiFormLabel-root  {
+    z-index: 1;
+    margin: 3px 0 4px 16px;
+
+}
+
+.MuiInputBase-root {
+    margin: 10px;
+	font-size: 13px;
+	padding: 2px 0 4px 6px;
+	background-color: #F6F6f6;
+	border-radius: 8px;
+}
+
+.MuiButton-outlinedPrimary {
+    margin-bottom: 10px;
+    background: aliceblue !important;
+}
+
+.makeStyles-root-1 {
+    background-color: rgb(194 194 194) !important;
+    width: 200px !important;
+}
